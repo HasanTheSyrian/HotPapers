@@ -9,3 +9,7 @@
 body {
   background-color: rgb(63, 63, 63);
 }
+
+.test {
+  @apply text-3xl font-bold underline bg-purple-500;
+}

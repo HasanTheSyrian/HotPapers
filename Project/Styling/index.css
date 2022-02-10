@@ -8,4 +8,8 @@ h1 {
 body {
   background-color: #3f3f3f;
 }
+
+.test {
+  @apply text-3xl font-bold underline bg-purple-500;
+}
 /*# sourceMappingURL=index.css.map */
