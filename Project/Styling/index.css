@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 h1 {
   background-color: green;
 }
@@ -10,6 +11,7 @@ body {
 }
 
 .test {
-  @apply text-3xl font-bold underline bg-purple-500;
+  @apply text-9xl font-bold underline text-secondary-200 
+  bg-purple-500 xl:bg-amber-800 border-neutral-700 font-Montserrat;
 }
 /*# sourceMappingURL=index.css.map */

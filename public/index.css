@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 h1 {
   background-color: green;
 }
@@ -427,7 +429,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -476,13 +478,25 @@ body {
   background-color: #3f3f3f;
 }
 
-.test {
+.test{
+  --tw-border-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-family: Montserrat;
+  font-size: 8rem;
+  line-height: 1;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+@media (min-width: 1280px){
+  .test{
+    --tw-bg-opacity: 1;
+    background-color: rgb(146 64 14 / var(--tw-bg-opacity));
+  }
 }
 /*# sourceMappingURL=index.css.map */
